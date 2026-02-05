@@ -1,0 +1,753 @@
+/* FONT EKSTERNAL */
+
+/* HammersmithOne */
+@font-face {
+  font-family: "HammersmithOne";
+  src: url("../fonts/Hammersmith_One/HammersmithOne-Regular.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* Poppins */
+
+/* Thin */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-ThinItalic.ttf");
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-ExtraLightItalic.ttf");
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* Light */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Black */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-BlackItalic.ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Halant */
+
+/* Halant Light */
+@font-face {
+  font-family: "Halant";
+  src: url("../fonts/Halant/Halant-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Halant Regular */
+@font-face {
+  font-family: "Halant";
+  src: url("../fonts/Halant/Halant-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Halant Medium */
+@font-face {
+  font-family: "Halant";
+  src: url("../fonts/Halant/Halant-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Halant SemiBold */
+@font-face {
+  font-family: "Halant";
+  src: url("../fonts/Halant/Halant-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Halant Bold */
+@font-face {
+  font-family: "Halant";
+  src: url("../fonts/Halant/Halant-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Inter */
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eefaff;
+  /* padding-top: 120px; */
+}
+
+/* ================= NAVBAR ================= */
+.navbar-wrapper {
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-custom {
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.nav-left {
+  font-family: "HammersmithOne", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.nav-left img {
+  height: 35px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: auto 43px;
+}
+
+.nav-menu a {
+  font-family: "HammersmithOne", sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+}
+
+.nav-menu a.active {
+  color: #2aa7c9;
+}
+
+.btn-outline {
+  border: 2px solid #2aa7c9;
+  padding: 6px 18px;
+  border-radius: 25px;
+  color: #2aa7c9;
+}
+
+.nav-menu .btn-solid {
+  background: #2aa7c9;
+  padding: 7px 20px;
+  border: #2c2c2c solid 1px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* ************************************ HOME ************************************ */
+
+/* ================= HERO ================= */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: "HammersmithOne", sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+}
+
+.hero p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn-daftar {
+  background: #1190c7;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* ================= PROGRAM ================= */
+section h2 {
+  font-family: "HammersmithOne", sans-serif;
+  font-weight: 400px;
+  margin-bottom: 16px;
+}
+
+section p {
+  font-family: "HammersmithOne", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+}
+
+.program-btn {
+  border-radius: 50px;
+  padding: 6px 20px;
+  border: 1px solid #1e88e5;
+  /* background: #e3f2fd; */
+  /* color: #1e88e5; */
+}
+
+.program-btn:hover {
+  background-color: #1e88e5;
+  color: white;
+}
+
+.program-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* .program-btn.active {
+  background: #1e88e5;
+  color: black;
+} */
+
+.card-program {
+  background-color: transparent;
+  border: none;
+}
+
+.card-program img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* ================= ALUMNI ================= */
+.alumni-section {
+  padding: 60px 20px;
+  background: #f8fcff;
+  text-align: center;
+}
+
+.alumni-section h2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* GRID UTAMA */
+.alumni-grid {
+  max-width: 1125px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr 1fr;
+  gap: 20px;
+  align-items: stretch; /* <<< PENTING */
+}
+
+/* ITEM */
+.alumni-item {
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.alumni-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* KIRI BESAR */
+.alumni-item.big {
+  grid-row: span 2;
+}
+
+/* KOLOM TENGAH */
+.alumni-column {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+/* KANAN TINGGI */
+.alumni-item.tall {
+  grid-row: span 2;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background: linear-gradient(to right, #27b3cc, #1d8699, #145966);
+  color: white;
+  padding: 40px 0;
+}
+
+footer h1 {
+  font-family: "HammersmithOne", sans-serif;
+}
+
+footer .footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: left;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  left: 96px;
+}
+
+footer .footer-text img {
+  width: 17.813650131225586px;
+  height: 25.53753662109375px;
+}
+
+footer .footer-text h5 {
+  font-family: "HammersmithOne", sans-serif;
+  margin-bottom: 25px;
+}
+
+footer .footer-text p {
+  font-family: "Poppins", sans-serif;
+}
+
+.copyright {
+  background: linear-gradient(to right, #7bd0f5, #487a8f);
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright small {
+  /* margin-top: 10px; */
+  /* margin-bottom: 21px; */
+  font-family: "Halant", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+/* Footer contact layout */
+.footer-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Icon base */
+.footer-icon {
+  flex-shrink: 0;
+}
+
+/* Icon size sesuai Figma */
+.footer-icon.maps {
+  width: 17.813650131225586px;
+  height: 25.53753662109375px;
+}
+
+.footer-icon.mail {
+  width: 20.71822166442871px;
+  height: 20.71822166442871px;
+}
+
+/* Text */
+.footer-item span {
+  line-height: 1.6;
+}
+
+.footer-text .number {
+  padding-left: 30px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* TABLET */
+@media (min-width: 992px) {
+  .alumni-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .alumni-item.big {
+    grid-column: span 2;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 120px 0;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program {
+    flex-direction: column;
+  }
+
+  footer .footer-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-item {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* ************************************ TENTANG ************************************ */
+
+/* ================= BREADCRUMB ================= */
+.breadcrumb-section {
+  margin-top: 100px;
+  padding: 20px 0;
+  background: transparent;
+  font-family: "HammersmithOne", sans-serif;
+}
+
+.breadcrumb-section span:nth-child(3) {
+  color: #1190c7;
+}
+
+/* ================= TENTANG ================= */
+.tentang-section {
+  /* height: 424px; */
+  padding: 30px 0 80px;
+}
+
+.tentang-card {
+  background: #fff;
+  border-radius: 30px;
+  /* padding: 40px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 98px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.tentang-section h2 {
+  font-family: "HammersmithOne", sans-serif;
+  text-align: center;
+}
+
+.tentang-section h4 {
+  font-family: "HammersmithOne", sans-serif;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.tentang-section .tentang-card p {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.tentang-logo {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  max-width: 225px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ================= VISI MISI ================= */
+.visi-misi-section {
+  padding: 80px 0;
+}
+
+.visi-misi-card {
+  background: #fff;
+  border-radius: 30px;
+  /* padding: 40px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 98px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.visi-misi-section .visi-misi-card h2 {
+  font-family: "HammersmithOne", sans-serif;
+}
+
+.visi-text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.misi-list {
+  max-width: 800px;
+  margin: 30px auto 0;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  line-height: normal;
+}
+
+/* .misi-list li {
+  margin-bottom: 12px;
+} */
+
+/* ================= LEGALITAS ================= */
+.legalitas-section {
+  padding: 80px 0;
+}
+
+.legalitas-section img {
+  margin-top: 15px;
+  width: 356px;
+  height: 503px;
+}
+
+.legalitas-section h3 {
+  font-family: "HammersmithOne", sans-serif;
+  margin-bottom: 20px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (min-width: 992px) {
+  .container-about {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tentang-logo {
+    margin-bottom: 20px;
+  }
+
+  .tentang-section h5 {
+    text-align: center;
+  }
+
+  .tentang-section p {
+    text-align: center;
+  }
+
+  .tentang-logo {
+    margin-top: 30px;
+    max-width: 200px;
+  }
+
+  .misi-list {
+    padding-left: 20px;
+  }
+
+  .legalitas-section h3 {
+    margin-top: 30px;
+  }
+
+  .legalitas-section .col-6 {
+    margin-bottom: 15px;
+  }
+}
+

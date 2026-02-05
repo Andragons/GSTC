@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard - GSTC</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body class="gstc-admin-body">
+    <!-- TOPBAR -->
+    <nav class="gstc-topbar">
+      <div class="gstc-topbar-left">
+        <img src="./assets/img/icon-company.jpg" alt="logo" />
+        <h4 class="gstc-logo">GSTC</h4>
+        <button id="gstcToggleBtn" class="gstc-toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="gstc-topbar-right">
+        <span class="gstc-admin-name">
+          <i class="fa-regular fa-circle-user"></i> Admin
+        </span>
+        <a href="home.html" class="gstc-logout-btn">Logout</a>
+      </div>
+    </nav>
+
+    <div id="gstcBackdrop" class="gstc-backdrop"></div>
+
+    <div class="gstc-admin-wrapper">
+      <!-- SIDEBAR -->
+      <aside id="gstcSidebar" class="gstc-sidebar">
+        <ul class="gstc-sidebar-menu">
+          <li>
+            <a href="#">
+              <span>Beranda </span>
+              <i data-feather="layout" class="mr-2"></i>
+            </a>
+          </li>
+          <li>
+            <a href="dashboard-admin-siswa.html">
+              <span>Siswa </span>
+              <i class="fa-solid fa-users"></i>
+            </a>
+          </li>
+          <li>
+            <a href="dashboard-admin-kelas.html">
+              <span>Kelas </span><i class="fa-solid fa-school"></i>
+            </a>
+          </li>
+          <li class="active">
+            <a href="dashboard-admin-galeri.html">
+              <span>Galeri </span><i class="fa-solid fa-image"></i>
+            </a>
+          </li>
+          <li>
+            <a href="dashboard-admin-sertifikat.html">
+              <span>Sertifikat </span>
+              <i class="fa-solid fa-certificate"></i>
+            </a>
+          </li>
+          <li>
+            <a href="dashboard-admin-pelatihan.html">
+              <span>Pelatihan</span>
+              <i class="fa-solid fa-book"></i>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main id="gstcMainContent" class="gstc-main-content">
+        <div class="container-fluid">
+          <!-- CARDS -->
+          <div class="row align-items-center mb-4">
+            <div class="col-md-6">
+              <h2 class="gstc-page-title">Galeri</h2>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-md-end">
+              <div class="btn-tambah">
+                <a
+                  class="btn btn-primary"
+                  href="dashboard-admin-galeri-tambah.html"
+                  role="button"
+                  >Tambah</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- WELCOME TEXT -->
+          <div class="gstc-tables-data">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">Id Galeri</th>
+                  <th scope="col">Foto</th>
+                  <th scope="col">Nama Alumni</th>
+                  <th scope="col">Testimoni</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-light">
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr class="table-light">
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr class="table-light">
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr class="table-light">
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- FOOTER (punya kamu, gue nggak ubah) -->
+    <footer class="admin-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Global Skills Training Center</h1>
+          </div>
+
+          <div class="col-md-6 footer-text">
+            <h5>Hubungi Kami</h5>
+
+            <div class="footer-item">
+              <img src="assets/img/maps.svg" class="footer-icon maps" />
+              <span>
+                Jalan Asparagus RT 03 RW 03,<br />
+                Wanarejan Utara, Taman, Pemalang 52361
+              </span>
+            </div>
+
+            <div class="footer-item number">
+              <span>+62 838-6363-7700</span>
+            </div>
+
+            <div class="footer-item">
+              <img src="assets/img/mail.svg" class="footer-icon mail" />
+              <span>globalskills.center@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright text-center">
+      <small>LPK Global Skills Training Center © 2025</small>
+    </div>
+
+    <!-- JS -->
+    <script>
+      const toggleBtn = document.getElementById("gstcToggleBtn");
+      const sidebar = document.getElementById("gstcSidebar");
+      const mainContent = document.getElementById("gstcMainContent");
+      const backdrop = document.getElementById("gstcBackdrop");
+      feather.replace();
+
+      function isMobile() {
+        return window.innerWidth <= 768;
+      }
+
+      toggleBtn.addEventListener("click", () => {
+        if (isMobile()) {
+          sidebar.classList.toggle("mobile-show");
+          backdrop.classList.toggle("show");
+        } else {
+          sidebar.classList.toggle("gstc-sidebar-collapsed");
+        }
+      });
+
+      backdrop.addEventListener("click", () => {
+        sidebar.classList.remove("mobile-show");
+        backdrop.classList.remove("show");
+      });
+
+      window.addEventListener("resize", () => {
+        if (!isMobile()) {
+          sidebar.classList.remove("mobile-show");
+          backdrop.classList.remove("show");
+        }
+      });
+    </script>
+  </body>
+</html>

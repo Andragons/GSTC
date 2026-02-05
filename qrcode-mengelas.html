@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pelatihan Mengelas - Global Skills Training Center</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body>
+    <section class="payment-section">
+      <div class="payment-overlay">
+        <div class="payment-modal qris-modal">
+          <!-- Header -->
+          <div class="qris-header">
+            <div>
+              <h3>Pelatihan Mengelas</h3>
+              <small
+                >Total Pembayaran : <strong>Rp.35.000.000,00</strong></small
+              >
+              <p class="order-id">ORDERID PM001</p>
+            </div>
+            <div class="qris-timer">
+              <small>Waktu Pembayaran</small>
+              <strong>23:59:00</strong>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="qris-content">
+            <h4>Scan QRIS berikut :</h4>
+
+            <div class="qris-box">
+                <a href="payment-mengelas-success.html">
+                    <img src="assets/img/qr-code.png" alt="QRIS Code" />
+                </a>
+            </div>
+
+            <div class="qris-steps">
+              <h5>Tata Cara Pembayaran :</h5>
+              <ol>
+                <li>Buka aplikasi pembayaran Anda</li>
+                <li>Scan QRIS di atas</li>
+                <li>
+                  Ikuti petunjuk selanjutnya untuk menyelesaikan pembayaran
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script>
+      document
+        .getElementById("navToggle")
+        .addEventListener("click", function () {
+          document.getElementById("navMenu").classList.toggle("show");
+        });
+    </script>
+  </body>
+</html>

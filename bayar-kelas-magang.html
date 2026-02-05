@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pelatihan Magang Jepang - Global Skills Training Center</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body>
+    <section class="payment-section">
+      <div class="payment-overlay">
+        <div class="payment-modal">
+          <!-- Header -->
+          <div class="payment-header">
+            <h3>Pelatihan Magang Jepang</h3>
+            <span class="close-btn">&times;</span>
+          </div>
+
+          <!-- Total Card -->
+          <div class="total-card">
+            <div class="total-left">
+              <small>Total</small>
+              <h4>Rp. 2.650.000,00</h4>
+              <span class="order-id">ORDERID PMJ001</span>
+            </div>
+            <div class="total-right">
+              <small>Waktu Transaksi</small>
+              <strong>23:59:00</strong>
+            </div>
+          </div>
+
+          <!-- Payment Methods -->
+          <h4 class="section-title">Semua Metode Pembayaran</h4>
+
+          <a href="qrcode-magang.html">
+            <div class="payment-option">
+              <div class="option-left digital">
+                <span class="badge">Dompet Digital</span>
+                <img src="assets/img/gopay.png" alt="gopay" />
+              </div>
+              <span class="arrow">›</span>
+            </div>
+          </a>
+
+          <div class="payment-option">
+            <div class="option-left banks vertical">
+                <span class="badge">MBanking</span>
+                <div class="bank-logos">
+                <img src="assets/img/bca.png" alt="BCA" />
+                <img src="assets/img/bri.png" alt="BRI" />
+                <img src="assets/img/mandiri.png" alt="Mandiri" />
+                <img src="assets/img/bsi.png" alt="BSI" />
+                <img src="assets/img/wondr.png" alt="Wondr" />
+                </div>
+            </div>
+            <span class="arrow">⌄</span>
+           </div>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script>
+      document
+        .getElementById("navToggle")
+        .addEventListener("click", function () {
+          document.getElementById("navMenu").classList.toggle("show");
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pelatihan Mengelas - Global Skills Training Center</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar-wrapper">
+      <div class="navbar-custom container">
+        <div class="nav-left">
+          <img src="assets/img/icon-company.jpg" alt="Logo" />
+          <span>Global Skills Training Center</span>
+        </div>
+
+        <div class="nav-toggle" id="navToggle">☰</div>
+
+        <nav class="nav-menu" id="navMenu">
+          <a href="home-2.html">Beranda</a>
+          <a href="kelas.html" class="active">Kelas</a>
+          <a href="materi-1.html">Materi</a>
+          <a href="sertifikat.html">Sertifikat</a>
+          <a href="dashboard-user.html"
+            ><i class="fa-regular fa-circle-user"></i> User</a
+          >
+          <a href="home.html" class="btn-solid">Logout</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <section class="breadcrumb-section text-center">
+      <div class="container"></div>
+    </section>
+
+    <!-- Kelas Magang -->
+    <section class="kelas-magang mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img
+              src="assets/img/pelatihan-mengelas.jpg"
+              alt="image"
+              class="img-thumbnail"
+            />
+            <div class="kelas-body">
+              <h3>Deskripsi</h3>
+              <p>
+                Kelas Pelatihan Mengelas adalah program keterampilan kerja yang
+                difokuskan pada penguasaan teknik pengelasan logam secara
+                profesional sesuai standar industri nasional dan internasional.
+                Pelatihan ini membekali peserta dengan pengetahuan teori dasar,
+                praktik langsung, dan keselamatan kerja agar siap bekerja di
+                bidang manufaktur, perkapalan, dan konstruksi.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+            <div class="kelas-body body-price">
+              <h2>Transaksi Pembelian</h2>
+              <small>Pelatihan Mengelas</small>
+              <h5>Rincian Pembayaran</h5>
+              <div class="price">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Harga</p>
+                    <p>Diskon</p>
+                    <br />
+                    <p>Total Transfer</p>
+                  </div>
+                  <div class="col-6">
+                    <p>Rp. 36.000.000,00</p>
+                    <p>Rp. 1.000.000,00</p>
+                    <br />
+                    <p>Rp. 35.000.000,00</p>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <a
+                href="bayar-kelas-mengelas.html"
+                class="btn btn-primary btn-lg btn-block"
+                >LANJUTKAN PEMBAYARAN</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Global Skills Training Center</h1>
+          </div>
+
+          <div class="col-md-6 footer-text">
+            <h5>Hubungi Kami</h5>
+
+            <div class="footer-item">
+              <img src="assets/img/maps.svg" class="footer-icon maps" />
+              <span>
+                Jalan Asparagus RT 03 RW 03,<br />
+                Wanarejan Utara, Taman, Pemalang 52361
+              </span>
+            </div>
+
+            <div class="footer-item number">
+              <span>+62 838-6363-7700</span>
+            </div>
+
+            <div class="footer-item">
+              <img src="assets/img/mail.svg" class="footer-icon mail" />
+              <span>globalskills.center@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright text-center">
+      <small>LPK Global Skills Training Center © 2025</small>
+    </div>
+
+    <!-- JS -->
+    <script>
+      document
+        .getElementById("navToggle")
+        .addEventListener("click", function () {
+          document.getElementById("navMenu").classList.toggle("show");
+        });
+    </script>
+  </body>
+</html>
