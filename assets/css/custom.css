@@ -347,7 +347,7 @@ body {
   min-height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/hero.jpg") center/cover no-repeat;
+    url("../img/hero.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   position: relative;
@@ -1268,7 +1268,7 @@ footer .footer-text p {
 }
 
 .alumni-carousel {
-  max-width: 900px;
+  max-width: 1020px;
   margin: auto;
 }
 
@@ -3617,6 +3617,10 @@ textarea.form-control {
     width: 100%;
     margin: 5px 0;
   }
+
+  .tabel-section .tabel-card .tabel-komputer thead {
+    font-size: 12px !important;
+  }
 }
 
 /* EXTRA SMALL */
@@ -4000,5 +4004,9 @@ textarea.form-control {
 
   .img-upload img {
     width: 35%;
+  }
+
+  .tabel-card tabel thead {
+    font-size: 12px;
   }
 }
